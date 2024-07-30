@@ -4,38 +4,50 @@
 */
 Vue.component("simple_hero_component_1722317763", {
     template: `
-        <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1">
-            <div id="hero-container" class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-                <div id="hero-text-container" class="mr-auto place-self-center lg:col-span-7">
-                    
-                    <div id="hero-title-container-text" class="flex">
-                        <h1 id="hero-title" class="flex-1 max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Unlock Blockchain Insights</h1>
-                    </div>
-
-                    <div id="hero-subtitle-container" class="flex">
-                        <p id="hero-subtitle" class="flex-1 max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Powerful Analytics for Cutting-Edge Data</p>
-                    </div>
-
-                    <div id="hero-buttons-container" class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                        <div id="hero-button-1-container" class="flex">
-                            <a id="hero-button-1" href="https://github.com/themesberg/landwind" class="flex-1  items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">Get Started</a>
+        <div class="flex">
+            <aside class="w-64 h-screen bg-gray-800 text-white p-4">
+                <nav>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="block py-2 px-4 hover:bg-gray-700 rounded">Home</a></li>
+                        <li><a href="#" class="block py-2 px-4 hover:bg-gray-700 rounded">About</a></li>
+                        <li><a href="#" class="block py-2 px-4 hover:bg-gray-700 rounded">Contact</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1">
+                <div id="hero-container" class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+                    <div id="hero-text-container" class="mr-auto place-self-center lg:col-span-7">
+                        
+                        <div id="hero-title-container-text" class="flex">
+                            <h1 id="hero-title" class="flex-1 max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Unlock Blockchain Insights</h1>
                         </div>
 
-                        <div id="hero-button-2-container" class="flex">
-                            <a id="hero-button-2" href="https://www.figma.com/community/file/1125744163617429490" class="flex-1  items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Learn More</a>
+                        <div id="hero-subtitle-container" class="flex">
+                            <p id="hero-subtitle" class="flex-1 max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Powerful Analytics for Cutting-Edge Data</p>
+                        </div>
 
+                        <div id="hero-buttons-container" class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+                            <div id="hero-button-1-container" class="flex">
+                                <a id="hero-button-1" href="https://github.com/themesberg/landwind" class="flex-1  items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">Get Started</a>
+                            </div>
+
+                            <div id="hero-button-2-container" class="flex">
+                                <a id="hero-button-2" href="https://www.figma.com/community/file/1125744163617429490" class="flex-1  items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Learn More</a>
+
+                            </div>
+                            <div id="hero-button-3-container" class="flex">
+                                <button id="hero-button-3" class="flex-1 items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-white bg-purple-600 border border-purple-600 rounded-lg sm:w-auto focus:outline-none hover:bg-purple-700 hover:border-purple-700 focus:ring-4 focus:ring-purple-300 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800 shadow-md">Hello World</button>
+                            </div>
                         </div>
-                        <div id="hero-button-3-container" class="flex">
-                            <button id="hero-button-3" class="flex-1 items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-white bg-purple-600 border border-purple-600 rounded-lg sm:w-auto focus:outline-none hover:bg-purple-700 hover:border-purple-700 focus:ring-4 focus:ring-purple-300 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800 shadow-md">Hello World</button>
-                        </div>
+                        
                     </div>
-                    
+                    <div id="hero-image-container" class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                        <img id="hero-image" src="./images/hero.png" alt="hero image">
+                    </div>
                 </div>
-                <div id="hero-image-container" class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                    <img id="hero-image" src="./images/hero.png" alt="hero image">
-                </div>
-            </div>
-        </section>            
+            </section>            
+        </div>
+    `,
     `,
     data() {
         return {
