@@ -48,5 +48,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you prefer the sidebar to be always visible or to appear as a slide-in menu when interacting with a menu icon?\", \"option1\": \"Always visible\", \"option2\": \"Slide-in menu\"}, {\"question 2\": \"Should the sidebar navigation links include icons next to the text labels, or text labels only?\", \"option1\": \"Icons next to text labels\", \"option2\": \"Text labels only\"}], \"input_token_count\": 266, \"output_token_count\": 99, \"time_taken\": \"0:00:04.481849\"}",
         "timestamp": "30072024053821",
         "message_id": "guest30072024053815"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Expandable 'Account Settings' menu in the sidebar for user profile management\", \"checked\": true}, {\"feature\": \"Interactive 'Market Trends' dashboard link in the sidebar for quick analytics\", \"checked\": false}, {\"feature\": \"Dark/Light mode toggle within the sidebar for user preference\", \"checked\": true}, {\"feature\": \"Live 'Blockchain Feed' section in the sidebar for realtime updates\", \"checked\": false}, {\"feature\": \"Quick 'Search Bar' on top of the sidebar for efficient navigation\", \"checked\": true}, {\"feature\": \"Feedback form link in the sidebar for user suggestions and reporting issues\", \"checked\": false}], \"input_token_count\": 220, \"output_token_count\": 136, \"time_taken\": \"0:00:06.107751\"}",
+        "timestamp": "30072024053823",
+        "message_id": "guest30072024053815"
     }
 ]
